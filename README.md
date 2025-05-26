@@ -62,3 +62,16 @@ Insurance_Status: Estado del seguro médico del paciente.
 
 Survival_Prediction: Predicción de supervivencia basada en múltiples factores.
 
+## Alcance
+
+Lo que se ha pretendido es mostrar los factores de riesgo más relevante en cuanto a la supervivencia del paciente.
+
+## Desarrollo
+
+Se ha comprobado la posible existencia de filas repetidas y nulos no existiendo ninguno de los dos.
+Se ha traducido el texto de inglés a español
+Se ha analizado en el libro seguro cada columna (factor) por separado teninendo en cuenta la característivas de los datos tanto cualitativos o categóricoa y cuantitativos, en otra hoja la relevancia de factor para la superviviencia de variables cualitativas y en otra algún factor más.
+
+## Conclusion
+Se ha comprobado que la dependencia de un sólo factor con respecto a la supervivencia no varía, estaría entorno al 60% de supervivencia y al 40% de no supervivencia. Sólo cuando se incluyen más factores podemos apreciar diferencia en cuanto a la supervivencia. Se han escogido mostrar los diferentes factores (segmentados) que dan lugar a variaciones importantes en la supervivencia en libro de dashboard.
+
